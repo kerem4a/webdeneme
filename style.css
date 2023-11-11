@@ -6,13 +6,13 @@ body {
 }
 
 h1 {
-    color: #000000; /* Başlık rengi */
-    font-size: 35px; /* Başlık yazı tipi boyutu */
-    font-family: Lucida, serif; /* Başlıkta kullanılan yazı tipi ailesi */}
+  color: #0671c9; /* Başlık rengi */
+  font-size: 50px; /* Başlık yazı tipi boyutu */
+  font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */}
 h2 {
-color: #17772f; /* Başlık rengi */
-font-size: 25px; /* Başlık yazı tipi boyutu */
-font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */}
+color: #c90606; /* Başlık rengi */
+font-size: 35px; /* Başlık yazı tipi boyutu */
+font-family:Trebuchet MS,serif; /* Başlıkta kullanılan yazı tipi ailesi */}
 @keyframes color-change {
     0% {
       color: rgb(255, 255, 255);
@@ -30,7 +30,9 @@ font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */}
       color: rgb(10, 10, 10);
     }
 }
-
 h1:hover {
-    animation:  color-change 3s infinite ;
+  animation:  color-change 7s infinite ;
+}
+h2:hover {
+    animation:  color-change 5s infinite ;
 }
